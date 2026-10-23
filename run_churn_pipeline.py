@@ -8,7 +8,6 @@ from churn_pipeline.visulizer import plot_target_distribution
 
 if __name__=="__main__":
     cfg=ChurnConfig()
-
     
     df=generate_customer_data(cfg)
 
